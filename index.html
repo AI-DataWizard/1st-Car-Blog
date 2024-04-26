@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/index.css" />
+    <title>Cars</title>
+  </head>
+  <body>
+    <div class="section">
+      <nav class="navbar">
+        <div class="logo"><h1>cars</h1></div>
+        <a href="#" class="toggle-btn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Catalogue</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="content">
+        <div class="text">
+          <h1>check the best cars in south africa</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ullam
+            nesciunt, eveniet nihil sapiente quisquam ratione iusto voluptates
+            ad alias ducimus? Nobis dignissimos amet porro?
+          </p>
+
+          <div class="btns">
+            <a href="#">Check Models</a>
+            <a href="#">Read Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="img-sec">
+          <img src="/assets/wallpaperflare.com_wallpaper (4).jpg" alt="" />
+        </div>
+        <div class="content">
+          <h1>About Us</h1>
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+            nesciunt nihil neque cupiditate voluptas possimus rem ipsa velit
+            quasi qui voluptates quaerat nulla accusantium perspiciatis aliquid
+            dolorem doloremque quisquam corrupti culpa, eligendi similique
+            accusamus atque!
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-sec">
+      <div class="news-content">
+        <div class="title">
+          <h2>Latest News</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="img-sec">
+              <img src="/assets/2630450.jpg" alt="" />
+            </div>
+            <div class="article">
+              <h4>Kia Rio</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat natus nesciunt itaque quasi necessitatibus fugit
+                perspiciatis laboriosam voluptatum ipsum eaque, dolorum fugiat
+                cupiditate ex soluta.
+              </p>
+            </div>
+
+            <div class="blog-views">
+              <a href="#" class="button">Read More</a>
+            </div>
+            <br />
+            <br />
+          </div>
+
+          <div class="card">
+            <div class="img-sec">
+              <img src="/assets/5a1a2b9763accd191f4839728ed94cae.jpg" />
+            </div>
+            <div class="article">
+              <h4>BMW 3 Series</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat natus nesciunt itaque quasi necessitatibus fugit
+                perspiciatis laboriosam voluptatum ipsum eaque, dolorum fugiat
+                cupiditate ex soluta.
+              </p>
+            </div>
+            <div class="blog-views">
+              <a href="#" class="button">Read More</a>
+            </div>
+            <br />
+            <br />
+          </div>
+
+          <div class="card">
+            <div class="img-sec">
+              <img
+                src="/assets/2020_audi_s5_coupe_prestige-quattro_fq_oem_2_815x543.jpg"
+                alt="" />
+            </div>
+            <div class="article">
+              <h4>Audi S5</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat natus nesciunt itaque quasi necessitatibus fugit
+                perspiciatis laboriosam voluptatum ipsum eaque, dolorum fugiat
+                cupiditate ex soluta.
+              </p>
+            </div>
+
+            <div class="blog-views">
+              <a href="#" class="button">Read More</a>
+            </div>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p><a href="#">Web Design</a> Created With <a href="#">Learn Web</a></p>
+    </div>
+    <script src="/js/all.js"></script>
+    <script type="text/javascript">
+      const btn = document.getElementsByClassName("toggle-btn")[0];
+      const menu = document.getElementsByClassName("menu")[0];
+      const nav = document.getElementsByClassName("navbar")[0];
+      const con = document.getElementsByClassName("content")[0];
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        nav.classList.toggle("active");
+        con.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
